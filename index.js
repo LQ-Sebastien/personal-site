@@ -1,8 +1,11 @@
-import * as dotenv from 'dotenv'
-import express from "express";
-import ejs from "ejs";
+const express = require('express');
+const ejs = require('ejs');
+require('dotenv').config()
 
-dotenv.config()
+// import * as dotenv from 'dotenv'
+// import express from "express";
+// import ejs from "ejs";
+// dotenv.config()
 
 const app = express();
 const port = process.env.PORT
